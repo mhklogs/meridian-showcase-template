@@ -67,10 +67,10 @@ export default function Navbar({ activePage, onChangePage }: NavbarProps) {
         id="mobile-nav-logo"
       >
         <span className="font-display font-semibold text-sm tracking-widest leading-none text-[#F4F4F6] group-hover:text-[#C5A059] transition-colors duration-300">
-          ULTD LLC
+          Meridian Estates
         </span>
         <span className="font-mono text-[7px] font-bold tracking-[0.2em] text-[#C5A059] mt-0.5 uppercase">
-          TEXAS REAL ESTATE
+          COLORADO REAL ESTATE
         </span>
       </div>
 

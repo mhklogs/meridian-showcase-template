@@ -233,7 +233,7 @@ export default function PropertiesHub({ onContactSeller }: PropertiesHubProps) {
                 CURATED PORTFOLIO
               </span>
               <h2 className="font-display font-semibold text-xl sm:text-3xl md:text-4xl tracking-wide text-[#F4F4F6] uppercase leading-none">
-                TEXAS <span className="text-[#C5A059]">PORTFOLIO</span>
+                COLORADO <span className="text-[#C5A059]">PORTFOLIO</span>
               </h2>
             </div>
 
@@ -402,7 +402,7 @@ export default function PropertiesHub({ onContactSeller }: PropertiesHubProps) {
                       SEEKING SOMETHING OFF-MARKET?
                     </h3>
                     <p className="font-sans text-[11px] text-[#8E909A] leading-relaxed font-light">
-                      Access unlisted Texas estates through our private corridor.
+                      Access unlisted Colorado estates through our private corridor.
                     </p>
                   </div>
 
@@ -515,7 +515,7 @@ export default function PropertiesHub({ onContactSeller }: PropertiesHubProps) {
                     <div className="pt-6 border-t border-[#22242B] space-y-4">
 
                       <p className="font-sans text-xs text-[#F4F3EF]/85 leading-relaxed font-normal">
-                        Interested in <strong className="text-[#C5A880]">"{selectedProperty.address}"</strong>? Notify Pat Patton directly.
+                        Interested in <strong className="text-[#C5A880]">"{selectedProperty.address}"</strong>? Notify Alex Morgan directly.
                       </p>
 
                       <div className="pt-2 flex gap-3">
@@ -533,7 +533,7 @@ export default function PropertiesHub({ onContactSeller }: PropertiesHubProps) {
                         <a
                           href="tel:5125607284"
                           className="border border-[#22242B] hover:bg-[#22242B] text-[#F4F3EF] flex items-center justify-center w-12 h-12 transition-all duration-300"
-                          title="Call Pat Patton directly"
+                          title="Call Alex Morgan directly"
                           id="modal-phone-btn"
                         >
                           <Phone size={16} />
@@ -541,7 +541,7 @@ export default function PropertiesHub({ onContactSeller }: PropertiesHubProps) {
                       </div>
 
                       <p className="font-mono text-[8px] text-[#F4F3EF]/40 uppercase tracking-widest pt-2">
-                        ULTD LLC · TREC #0594267
+                        Meridian Estates · TREC #0000000
                       </p>
                     </div>
 

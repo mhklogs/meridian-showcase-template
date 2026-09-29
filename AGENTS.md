@@ -1,8 +1,8 @@
-# AGENTS.md — ULTD LLC Real Estate
+# AGENTS.md — Meridian Estates Real Estate
 
 ## What this is
 
-A cinematic single-page React app for **ULTD LLC**, a Texas-based luxury real estate brokerage led by Designated Broker Pat Patton. It showcases properties, services, executive bios, and market coverage across Texas — no backend, no CMS, no router.
+A cinematic single-page React app for **Meridian Estates**, a Colorado-based luxury real estate brokerage led by Designated Broker Alex Morgan. It showcases properties, services, executive bios, and market coverage across Colorado — no backend, no CMS, no router.
 
 ## Commands (verified in `package.json`)
 
@@ -33,7 +33,7 @@ components/
   Narrative.tsx        — Brand story section using ScrollStack.
   Analytics.tsx        — Three-column hover-expand stats with Odometer counters (triggered by motion/useInView).
   Showcase.tsx         — ScrollStack carousels property images.
-  MapSection.tsx       — Leaflet map of Texas markets. Markers and fly-to controlled via react-leaflet hooks; map interactions (drag/scroll/zoom) are locked — selection is panel-driven only.
+  MapSection.tsx       — Leaflet map of Colorado markets. Markers and fly-to controlled via react-leaflet hooks; map interactions (drag/scroll/zoom) are locked — selection is panel-driven only.
   ContactSection.tsx   — Full-width contact form + footer. Form submission is simulated (sets a `submitted` boolean, resets after 4s). No API call.
   PropertiesHub.tsx    — Filterable property grid with detail modal drawer. Pre-fills the contact form via `onContactSeller` callback.
   AboutView.tsx        — Executive bios + value pillars.

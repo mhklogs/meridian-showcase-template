@@ -24,7 +24,7 @@ export default function Narrative({ onChangePage }: NarrativeProps) {
             </h2>
 
             <p className="font-sans text-base sm:text-lg text-[#F4F4F6]/90 leading-relaxed font-light max-w-xl">
-              We don’t just broker properties—we engineer wealth preservation. Led by Pat Patton since 1975, our firm leverages multidisciplinary strategy across Texas high-yield real estate.
+              We don’t just broker properties—we engineer wealth preservation. Led by Alex Morgan since 1975, our firm leverages multidisciplinary strategy across Colorado high-yield real estate.
             </p>
 
             <div className="pt-2">

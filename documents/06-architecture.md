@@ -1,4 +1,4 @@
-# ultd-llc-realestate — Architecture Summary
+# meridian-showcase-template — Architecture Summary
 
 > Generated from static analysis on 2026-09-28.
 

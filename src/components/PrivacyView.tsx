@@ -29,7 +29,7 @@ export default function PrivacyView({ onChangePage }: PrivacyViewProps) {
             PRIVACY & <span className="text-[#C5A059]">DATA PROTECTION</span>
           </h1>
           <p className="font-sans text-xs text-[#8E909A] font-light leading-relaxed uppercase tracking-wider">
-            Official privacy protections and confidential client data security policies for ULTD LLC Real Estate.
+            Official privacy protections and confidential client data security policies for Meridian Estates Real Estate.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ export default function PrivacyView({ onChangePage }: PrivacyViewProps) {
 
           <div className="space-y-6 font-sans text-xs sm:text-sm text-[#8E909A] leading-relaxed font-light">
             <p>
-              At ULTD LLC, we are committed to safeguarding the privacy and confidential financial profile of our luxury residential and commercial clients.
+              At Meridian Estates, we are committed to safeguarding the privacy and confidential financial profile of our luxury residential and commercial clients.
             </p>
 
             <div className="space-y-2 pt-2 border-t border-white/10">
@@ -64,7 +64,7 @@ export default function PrivacyView({ onChangePage }: PrivacyViewProps) {
             <div className="space-y-2 pt-2 border-t border-white/10">
               <h3 className="font-display font-semibold text-base text-[#C5A059] uppercase tracking-wider">3. Direct Principal Contact</h3>
               <p>
-                Should you have any inquiries regarding your stored contact preferences, please reach Designated Broker Pat Patton directly at (512) 560-7284 or via email at ultd@swbell.net.
+                Should you have any inquiries regarding your stored contact preferences, please reach Designated Broker Alex Morgan directly at (512) 560-7284 or via email at meridian@swbell.net.
               </p>
             </div>
           </div>

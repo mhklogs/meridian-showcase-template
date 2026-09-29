@@ -43,7 +43,7 @@ export default function ContactSection({ onChangePage }: ContactSectionProps) {
     'Selling a Property',
     'Commercial Real Estate',
     'Investment Advisory & Yield Modeling',
-    'Mortgage & Financing (NMLS #215194)',
+    'Mortgage & Financing (NMLS #0000000)',
   ];
 
   const handleInputChange = (field: string, value: string) => {
@@ -87,7 +87,7 @@ export default function ContactSection({ onChangePage }: ContactSectionProps) {
 
     // Trigger Success State & Toast
     setSubmitted(true);
-    addToast('success', 'DOSSIER TRANSMITTED: Your inquiry has been securely routed to Designated Broker Pat Patton.');
+    addToast('success', 'DOSSIER TRANSMITTED: Your inquiry has been securely routed to Designated Broker Alex Morgan.');
 
     setTimeout(() => {
       setFormData({
@@ -141,7 +141,7 @@ export default function ContactSection({ onChangePage }: ContactSectionProps) {
               GET IN TOUCH
             </span>
             <h2 className="font-display font-semibold text-3xl sm:text-4xl tracking-wide text-[#F4F4F6] uppercase leading-none">
-              CONTACT <span className="text-[#C5A059]">ULTD LLC</span>
+              CONTACT <span className="text-[#C5A059]">Meridian Estates</span>
             </h2>
           </div>
 
@@ -152,14 +152,14 @@ export default function ContactSection({ onChangePage }: ContactSectionProps) {
               <span>(512) 560-7284</span>
             </a>
 
-            <a href="mailto:ultd@swbell.net" className="flex items-center space-x-3 text-[#8E909A] hover:text-[#C5A059] transition-colors" id="contact-info-email">
+            <a href="mailto:meridian@swbell.net" className="flex items-center space-x-3 text-[#8E909A] hover:text-[#C5A059] transition-colors" id="contact-info-email">
               <Mail size={14} className="text-[#C5A059] flex-shrink-0" />
-              <span>ultd@swbell.net</span>
+              <span>meridian@swbell.net</span>
             </a>
 
             <div className="flex items-start space-x-3 text-[#8E909A]" id="contact-info-address">
               <MapPin size={14} className="text-[#C5A059] flex-shrink-0 mt-0.5" />
-              <span>2112 Baltusrol Dr, Austin, TX 78747-1202</span>
+              <span>2112 Baltusrol Dr, Denver, TX 78747-1202</span>
             </div>
           </div>
         </div>
@@ -295,9 +295,9 @@ export default function ContactSection({ onChangePage }: ContactSectionProps) {
           
           {/* Logo & Brokerage Summary */}
           <div className="flex items-center space-x-3">
-            <span className="font-display font-semibold text-base tracking-wider text-[#F4F4F6]">ULTD LLC</span>
+            <span className="font-display font-semibold text-base tracking-wider text-[#F4F4F6]">Meridian Estates</span>
             <span className="text-[#C5A059] text-xs">·</span>
-            <span className="font-mono text-[9px] tracking-widest text-[#8E909A] font-medium">TEXAS REAL ESTATE BROKERAGE · TREC #0594267</span>
+            <span className="font-mono text-[9px] tracking-widest text-[#8E909A] font-medium">COLORADO REAL ESTATE BROKERAGE · TREC #0000000</span>
           </div>
 
           {/* Minimalist Text Legal Links */}
@@ -313,7 +313,7 @@ export default function ContactSection({ onChangePage }: ContactSectionProps) {
 
           {/* Bottom Legal Copyright */}
           <div className="font-mono text-[9px] text-[#8E909A] tracking-widest uppercase">
-            © 2026 ULTD LLC. ALL RIGHTS RESERVED.
+            © 2026 Meridian Estates. ALL RIGHTS RESERVED.
           </div>
         </div>
       </footer>
@@ -391,19 +391,19 @@ export default function ContactSection({ onChangePage }: ContactSectionProps) {
                 {modalTab === 'disclosures' && (
                   <div className="space-y-4">
                     <p>
-                      <span className="text-[#C5A059] font-bold">TREC COMPLIANCE MANDATE:</span> ULTD LLC is a licensed Texas real estate brokerage (TREC License #0594267). Pat Patton, Designated Broker (TREC License #0175549).
+                      <span className="text-[#C5A059] font-bold">TREC COMPLIANCE MANDATE:</span> Meridian Estates is a licensed Colorado real estate brokerage (TREC License #0594267). Alex Morgan, Designated Broker (TREC License #0175549).
                     </p>
 
                     <div className="bg-[#08080A] border border-white/10 p-4 rounded-[2px] space-y-2">
-                      <span className="text-[#C5A059] font-bold block text-[10px]">TEXAS REAL ESTATE COMMISSION CONSUMER PROTECTION NOTICE</span>
+                      <span className="text-[#C5A059] font-bold block text-[10px]">COLORADO REAL ESTATE COMMISSION CONSUMER PROTECTION NOTICE</span>
                       <p className="text-[11px] text-[#8E909A]">
-                        TREC regulates real estate brokers, sales agents, and inspectors. Complaints can be filed at www.trec.texas.gov.
+                        TREC regulates real estate brokers, sales agents, and inspectors. Complaints can be filed at example.com/regulator.
                       </p>
                     </div>
 
                     <div className="space-y-2 pt-2 border-t border-white/10">
                       <a 
-                        href="https://www.trec.texas.gov/sites/default/files/pdf-forms/CN%201-5_0.pdf" 
+                        href="https://example.com/regulatory/complaint-form.pdf" 
                         target="_blank" 
                         rel="noreferrer" 
                         className="text-[#C5A059] hover:underline font-bold block"
@@ -411,12 +411,12 @@ export default function ContactSection({ onChangePage }: ContactSectionProps) {
                         → Official TREC Consumer Protection Notice CN 1-5 (PDF) ↗
                       </a>
                       <a 
-                        href="https://www.trec.texas.gov" 
+                        href="https://example.com/regulator" 
                         target="_blank" 
                         rel="noreferrer" 
                         className="text-[#F4F4F6] hover:underline font-bold block"
                       >
-                        → Visit Official TREC Portal (www.trec.texas.gov) ↗
+                        → Visit Official TREC Portal (example.com/regulator) ↗
                       </a>
                     </div>
                   </div>
@@ -431,7 +431,7 @@ export default function ContactSection({ onChangePage }: ContactSectionProps) {
                     </div>
                     <div className="space-y-2 border-t border-white/10 pt-2">
                       <strong className="text-[#F4F4F6] font-semibold block">2. Fair Housing Opportunity:</strong>
-                      <p>ULTD LLC complies with the Fair Housing Act and Equal Opportunity Act without discrimination.</p>
+                      <p>Meridian Estates complies with the Fair Housing Act and Equal Opportunity Act without discrimination.</p>
                     </div>
                     <div className="space-y-2 border-t border-white/10 pt-2">
                       <strong className="text-[#F4F4F6] font-semibold block">3. Brokerage Fee Negotiability:</strong>
@@ -453,7 +453,7 @@ export default function ContactSection({ onChangePage }: ContactSectionProps) {
                     </div>
                     <div className="space-y-2 border-t border-white/10 pt-2">
                       <strong className="text-[#F4F4F6] font-semibold block">3. Direct Contact:</strong>
-                      <p>For privacy inquiries, contact Designated Broker Pat Patton directly at (512) 560-7284 or via email at ultd@swbell.net.</p>
+                      <p>For privacy inquiries, contact Designated Broker Alex Morgan directly at (512) 560-7284 or via email at meridian@swbell.net.</p>
                     </div>
                   </div>
                 )}
@@ -461,7 +461,7 @@ export default function ContactSection({ onChangePage }: ContactSectionProps) {
 
               {/* Modal Footer */}
               <div className="pt-4 border-t border-white/10 flex items-center justify-between text-[9px] font-mono text-[#8E909A]">
-                <span>ULTD LLC · AUSTIN, TEXAS · TREC #0594267</span>
+                <span>Meridian Estates · DENVER, COLORADO · TREC #0000000</span>
                 <button
                   onClick={() => setShowDisclosuresModal(false)}
                   className="text-[#C5A059] hover:underline font-bold cursor-pointer uppercase"

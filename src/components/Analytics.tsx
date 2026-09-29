@@ -53,13 +53,13 @@ export default function Analytics() {
     {
       number: <Odometer value={50} suffix="+" />,
       label: 'YEARS OF INDUSTRY INFLUENCE',
-      desc: 'Bespoke client representation in Texas, operating continuously across market cycles since 1975 under Pat Patton.',
+      desc: 'Bespoke client representation in Colorado, operating continuously across market cycles since 1975 under Alex Morgan.',
       image: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80',
     },
     {
       number: <Odometer value={100} suffix="%" />,
-      label: 'STATEWIDE TEXAS SERVICE',
-      desc: 'Comprehensive transactional capacity spanning Austin, Hill Country, DFW, Houston, San Antonio, and smaller luxury enclaves.',
+      label: 'STATEWIDE COLORADO SERVICE',
+      desc: 'Comprehensive transactional capacity spanning Denver, hill country, DFW, Phoenix, Denver, and smaller luxury enclaves.',
       image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80',
     },
     {

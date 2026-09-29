@@ -44,12 +44,12 @@ export default function LandingLeadership({ onChangePage }: LandingLeadershipPro
         {/* Minimalist Landing Grid (No Outer Box Cards) */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           {EXECUTIVES.map((exec) => {
-            const roleTitle = exec.name === 'Pat Patton'
+            const roleTitle = exec.name === 'Alex Morgan'
               ? 'FOUNDING BROKER & DESIGNATED REALTOR'
               : 'INTERNATIONAL PROGRAM DIRECTOR';
 
-            const summaryDescription = exec.name === 'Pat Patton'
-              ? 'Engineering long-term wealth preservation and institutional capital structures across Texas.'
+            const summaryDescription = exec.name === 'Alex Morgan'
+              ? 'Engineering long-term wealth preservation and institutional capital structures across Colorado.'
               : 'Directing international investor partnerships, program operations, and corporate relations.';
 
             return (

@@ -1,5 +1,5 @@
 
-# ultd-llc-realestate — Data Flow Diagram
+# meridian-showcase-template — Data Flow Diagram
 
 > Generated from static analysis on 2026-09-28. The diagram shows processes and
 > stores that were **positively detected**. Dashed nodes are inferred from a
@@ -9,7 +9,7 @@
 
 ```mermaid
 flowchart LR
-    U["External user<br/>(browser / client)"] -->|"requests"| S["ultd-llc-realestate"]
+    U["External user<br/>(browser / client)"] -->|"requests"| S["meridian-showcase-template"]
     S -->|"responses"| U
     S -->|"outbound calls"| X["Third-party services"]
 ```
@@ -20,7 +20,7 @@ flowchart LR
 flowchart TD
     U["External user"] --> P1
 
-    subgraph APP ["ultd-llc-realestate"]
+    subgraph APP ["meridian-showcase-template"]
         P1["Presentation layer<br/>0 route module(s), 19 component(s)"]
         P2["Application / API layer<br/>0 handler(s)"]
         P3["Domain logic<br/>business rules"]

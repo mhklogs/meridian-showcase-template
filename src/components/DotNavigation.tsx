@@ -154,10 +154,10 @@ export default function DotNavigation({ activePage, onChangePage }: DotNavigatio
         id="sidebar-brand-logo"
       >
         <span className="font-display font-semibold text-base sm:text-lg tracking-widest leading-none text-[#F4F4F6] group-hover:text-[#C5A059] transition-colors duration-300">
-          ULTD LLC
+          Meridian Estates
         </span>
         <span className="font-mono text-[8px] font-bold tracking-[0.2em] text-[#C5A059] mt-1 uppercase">
-          TEXAS REAL ESTATE
+          COLORADO REAL ESTATE
         </span>
       </div>
 

@@ -31,7 +31,7 @@ export default function AboutView({ onChangePage }: AboutViewProps) {
             LEADERSHIP & <span className="text-[#C5A059]">DOSSIERS</span>
           </h1>
           <p className="font-sans text-xs sm:text-sm text-[#8E909A] font-light leading-relaxed max-w-2xl">
-            Established under TREC License #0594267, ULTD LLC delivers direct principal representation, multi-jurisdictional license oversight, and high-yield real estate capital stewardship.
+            Established under TREC License #0594267, Meridian Estates delivers direct principal representation, multi-jurisdictional license oversight, and high-yield real estate capital stewardship.
           </p>
         </div>
 

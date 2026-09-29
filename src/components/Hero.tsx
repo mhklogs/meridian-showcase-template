@@ -8,10 +8,10 @@ import { Phone } from 'lucide-react';
 const HERO_MILESTONES = [
   {
     title: 'ARCHITECTURAL EXCELLENCE',
-    subtitle: 'Bespoke fiduciary advocacy for Texas\' distinguished luxury estates.',
+    subtitle: 'Bespoke fiduciary advocacy for Colorado\' distinguished luxury estates.',
   },
   {
-    title: 'DEFINING TEXAS LUXURY',
+    title: 'DEFINING COLORADO LUXURY',
     subtitle: 'Unrivaled market strategy, private corridor sourcing, and principal representation.',
   },
   {
@@ -20,7 +20,7 @@ const HERO_MILESTONES = [
   },
   {
     title: 'FIDUCIARY LEADERSHIP',
-    subtitle: 'Five decades of continuous Texas brokerage leadership and capital stewardship.',
+    subtitle: 'Five decades of continuous Colorado brokerage leadership and capital stewardship.',
   },
 ];
 

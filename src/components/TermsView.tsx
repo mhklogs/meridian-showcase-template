@@ -29,7 +29,7 @@ export default function TermsView({ onChangePage }: TermsViewProps) {
             TERMS OF USE & <span className="text-[#C5A059]">SERVICE AGREEMENT</span>
           </h1>
           <p className="font-sans text-xs text-[#8E909A] font-light leading-relaxed uppercase tracking-wider">
-            Official legal parameters and conditions governing the use of ULTD LLC Real Estate platform and services.
+            Official legal parameters and conditions governing the use of Meridian Estates Real Estate platform and services.
           </p>
         </div>
 
@@ -44,27 +44,27 @@ export default function TermsView({ onChangePage }: TermsViewProps) {
 
           <div className="space-y-6 font-sans text-xs sm:text-sm text-[#8E909A] leading-relaxed font-light">
             <p>
-              Welcome to ULTD LLC Real Estate. By accessing or using our website, services, property dossiers, and associated content, you agree to comply with and be bound by the following terms and conditions.
+              Welcome to Meridian Estates Real Estate. By accessing or using our website, services, property dossiers, and associated content, you agree to comply with and be bound by the following terms and conditions.
             </p>
 
             <div className="space-y-2 pt-2 border-t border-white/10">
               <h3 className="font-display font-semibold text-base text-[#C5A059] uppercase tracking-wider">1. Brokerage Services & Representation</h3>
               <p>
-                All property listings, market assessments, and real estate advisory details displayed on this website are for informational purposes. Formal client representation is established only upon execution of a written buyer or seller representation agreement compliant with Texas Real Estate Commission (TREC) rules.
+                All property listings, market assessments, and real estate advisory details displayed on this website are for informational purposes. Formal client representation is established only upon execution of a written buyer or seller representation agreement compliant with Colorado Real Estate Commission (TREC) rules.
               </p>
             </div>
 
             <div className="space-y-2 pt-2 border-t border-white/10">
               <h3 className="font-display font-semibold text-base text-[#C5A059] uppercase tracking-wider">2. Equal Housing Opportunity</h3>
               <p>
-                ULTD LLC fully supports the principles of the Fair Housing Act and the Equal Opportunity Act. All properties are offered on an equal opportunity basis without discrimination based on race, color, religion, sex, handicap, familial status, or national origin.
+                Meridian Estates fully supports the principles of the Fair Housing Act and the Equal Opportunity Act. All properties are offered on an equal opportunity basis without discrimination based on race, color, religion, sex, handicap, familial status, or national origin.
               </p>
             </div>
 
             <div className="space-y-2 pt-2 border-t border-white/10">
               <h3 className="font-display font-semibold text-base text-[#C5A059] uppercase tracking-wider">3. Intellectual Property</h3>
               <p>
-                All editorial photography, architectural copywriting, property dossiers, brand assets, and frame-scrubbing visual media are the exclusive property of ULTD LLC and protected under applicable trademark and copyright laws.
+                All editorial photography, architectural copywriting, property dossiers, brand assets, and frame-scrubbing visual media are the exclusive property of Meridian Estates and protected under applicable trademark and copyright laws.
               </p>
             </div>
 

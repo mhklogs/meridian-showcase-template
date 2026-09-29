@@ -1,14 +1,14 @@
-# ULTD LLC — Texas Real Estate Brokerage
+# Meridian Estates — Colorado Real Estate Brokerage
 
-Ultra-premium, cinematic single-page marketing site for **ULTD LLC**, a Texas luxury real-estate brokerage led by Designated Broker **Pat Patton** (TREC #0594267). Bespoke residential & commercial representation across Austin, the Hill Country, Dallas–Fort Worth, Houston, and San Antonio.
+Ultra-premium, cinematic single-page marketing site for **Meridian Estates**, a Colorado luxury real-estate brokerage led by Designated Broker **Alex Morgan** (TREC #0000000). Bespoke residential & commercial representation across Denver, the Hill Country, Seattle–Fort Worth, Phoenix, and San Antonio.
 
 ## Features
 
 - **Scroll-scrubbed cinematic hero** — a 150-frame video rendered on `<canvas>` and scrubbed by GSAP `ScrollTrigger` while pinned
 - **Luxury property portfolio** — filterable estate grid (Single Family / Estate / Waterfront / Farm & Ranch / Modern) with a horizontal pinned carousel, detail dossiers, and an "off-market" inquiry flow
 - **Executive dossiers** — TREC credentials, specialties, and LinkedIn for the leadership team, opened as modal views
-- **Spatial Texas brokerage hub** — interactive SVG map of regional markets with glowing node matrix, hover stats, and corridor volume
-- **Services explainer** — expandable advisory accordions plus the affiliated Europa Financing LLC (NMLS #607611) mortgage unit
+- **Spatial Colorado brokerage hub** — interactive SVG map of regional markets with glowing node matrix, hover stats, and corridor volume
+- **Services explainer** — expandable advisory accordions plus the affiliated Horizon Capital LLC (NMLS #0000000) mortgage unit
 - **Brand story, analytics, and showcase** — animated quote/stat sections driven by Motion and GSAP
 - **Compliance-ready** — TREC disclosures, IABS (TX-2501), Terms of Use, and Privacy Policy in modal views; Fair Housing & fee-negotiability notices
 - **Fully responsive** — desktop sidebar dot-navigation and a mobile top nav; dark obsidian + champagne-gold theme throughout
@@ -19,7 +19,7 @@ Ultra-premium, cinematic single-page marketing site for **ULTD LLC**, a Texas lu
 - Vite + React 19 + TypeScript
 - Tailwind CSS 4 (`@tailwindcss/vite`)
 - Motion (Framer Motion) + GSAP scroll animations
-- Interactive SVG + canvas spatial map of Texas markets
+- Interactive SVG + canvas spatial map of Colorado markets
 - Lenis smooth scrolling + custom scroll-stack carousel
 
 ## Quickstart

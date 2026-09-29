@@ -136,7 +136,7 @@ export default function ServicesView({ onChangePage }: ServicesViewProps) {
             <div className="pt-4 mt-4 border-t border-white/10 font-mono text-[9px] text-[#8E909A] leading-relaxed flex items-start space-x-2.5">
               <ShieldAlert size={13} className="text-[#C5A059] flex-shrink-0 mt-0.5" />
               <p>
-                <span className="text-[#C5A059] font-bold">FEES NOTICE:</span> Real estate brokerage fees are not set by law and are fully negotiable. All services comply with TREC guidelines. Mortgage services provided by Europa Financing LLC (NMLS #607611).
+                <span className="text-[#C5A059] font-bold">FEES NOTICE:</span> Real estate brokerage fees are not set by law and are fully negotiable. All services comply with TREC guidelines. Mortgage services provided by Horizon Capital LLC (NMLS #0000000).
               </p>
             </div>
           </div>
@@ -172,20 +172,20 @@ export default function ServicesView({ onChangePage }: ServicesViewProps) {
                 AFFILIATED MORTGAGE ADVANTAGE
               </span>
               <h3 className="font-display font-semibold text-xl text-[#F4F4F6] uppercase leading-none">
-                EUROPA FINANCING LLC
+                HORIZON CAPITAL LLC
               </h3>
               <p className="font-sans text-xs text-[#8E909A] leading-relaxed font-light">
-                Unifying transactional real estate and capital deployment. Overseen by Designated Broker Pat Patton (RMLO NMLS #215194).
+                Unifying transactional real estate and capital deployment. Overseen by Designated Broker Alex Morgan (RMLO NMLS #0000000).
               </p>
               
               <div className="grid grid-cols-2 gap-3 border-t border-white/10 pt-3 font-mono text-xs text-[#8E909A]">
                 <div>
-                  <span className="block font-bold text-xs text-[#F4F4F6]">NMLS #607611</span>
-                  <span className="text-[8px] uppercase text-[#C5A059] tracking-wider">Europa Financing LLC</span>
+                  <span className="block font-bold text-xs text-[#F4F4F6]">NMLS #0000000</span>
+                  <span className="text-[8px] uppercase text-[#C5A059] tracking-wider">Horizon Capital LLC</span>
                 </div>
                 <div>
-                  <span className="block font-bold text-xs text-[#F4F4F6]">NMLS #215194</span>
-                  <span className="text-[8px] uppercase text-[#C5A059] tracking-wider">Pat Patton, RMLO</span>
+                  <span className="block font-bold text-xs text-[#F4F4F6]">NMLS #0000000</span>
+                  <span className="text-[8px] uppercase text-[#C5A059] tracking-wider">Alex Morgan, RMLO</span>
                 </div>
               </div>
 

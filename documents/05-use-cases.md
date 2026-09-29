@@ -1,4 +1,4 @@
-# ultd-llc-realestate — Use Cases
+# meridian-showcase-template — Use Cases
 
 > Generated from static analysis on 2026-09-28. Each use case is anchored to the
 > route or module that implements it. Actors are named from what the code

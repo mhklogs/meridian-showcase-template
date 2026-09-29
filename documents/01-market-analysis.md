@@ -1,4 +1,4 @@
-# ultd-llc-realestate — Market Analysis
+# meridian-showcase-template — Market Analysis
 
 > ## ⚠ This document is an empty template, on purpose
 >

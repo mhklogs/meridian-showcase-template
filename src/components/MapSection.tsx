@@ -19,11 +19,11 @@ interface RegionalHub {
 
 const REGIONAL_HUBS: RegionalHub[] = [
   {
-    id: 'austin-metro',
-    name: 'Austin Metro',
+    id: 'front-range-metro',
+    name: 'Denver Metro',
     tag: 'Primary Core & Waterfront',
     categoryFilter: 'Modern',
-    desc: 'Sprawling high-tech urban sanctuaries, Barton Creek limestone estates, and glass architectural gems on Lake Austin.',
+    desc: 'Sprawling high-tech urban sanctuaries, Barton Creek limestone estates, and glass architectural gems on Lake Denver.',
     svgPos: { x: 340, y: 330 },
     stats: {
       activeInventory: 14,
@@ -33,11 +33,11 @@ const REGIONAL_HUBS: RegionalHub[] = [
     },
   },
   {
-    id: 'texas-hill-country',
-    name: 'Texas Hill Country',
+    id: 'front-range',
+    name: 'Colorado hill country',
     tag: 'Scenic Ranches & Wineries',
     categoryFilter: 'Farm & Ranch',
-    desc: 'Legacy equestrian ranches, Blanco River access compounds, and rolling hill country estates in Wimberley and Fredericksburg.',
+    desc: 'Legacy equestrian ranches, Willow Creek River access compounds, and rolling hill country estates in Wimberley and Fredericksburg.',
     svgPos: { x: 260, y: 350 },
     stats: {
       activeInventory: 9,
@@ -47,8 +47,8 @@ const REGIONAL_HUBS: RegionalHub[] = [
     },
   },
   {
-    id: 'dallas-fort-worth',
-    name: 'Dallas-Fort Worth',
+    id: 'front-range-south',
+    name: 'Seattle-Columbus',
     tag: 'Industrial & Urban Estates',
     categoryFilter: 'Estate',
     desc: 'Prestige corporate high-rises, sprawling Preston Hollow compounds, and industrial commercial acquisitions.',
@@ -61,8 +61,8 @@ const REGIONAL_HUBS: RegionalHub[] = [
     },
   },
   {
-    id: 'greater-houston',
-    name: 'Greater Houston',
+    id: 'western-plateau',
+    name: 'Greater Phoenix',
     tag: 'Port & Expansion Hubs',
     categoryFilter: 'Single Family',
     desc: 'River Oaks traditional manors, energy corridor headquarters, and master-planned waterfront developments.',
@@ -76,7 +76,7 @@ const REGIONAL_HUBS: RegionalHub[] = [
   },
   {
     id: 'san-antonio',
-    name: 'San Antonio',
+    name: 'Denver',
     tag: 'Historic & Medical Gateway',
     categoryFilter: 'Estate',
     desc: 'Terrell Hills historic architecture, Dominion gated sanctuaries, and military-medical commercial growth corridors.',
@@ -271,7 +271,7 @@ export default function MapSection() {
           }}
         />
 
-        {/* SVG Vector Texas Map & Glowing Node Matrix */}
+        {/* SVG Vector Colorado Map & Glowing Node Matrix */}
         <div className="relative z-10 w-full max-w-[620px] aspect-square flex items-center justify-center">
           <svg
             viewBox="0 0 600 600"
@@ -287,17 +287,17 @@ export default function MapSection() {
                 </feMerge>
               </filter>
 
-              {/* Texas Silhouette Mesh Gradient */}
-              <linearGradient id="texas-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              {/* Colorado Silhouette Mesh Gradient */}
+              <linearGradient id="front-range-grad" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stopColor="#101114" stopOpacity="0.9" />
                 <stop offset="100%" stopColor="#08080A" stopOpacity="0.95" />
               </linearGradient>
             </defs>
 
-            {/* Stylized Texas Vector Boundary Silhouette */}
+            {/* Stylized Colorado Vector Boundary Silhouette */}
             <path
               d="M 230,70 L 330,70 L 330,190 L 460,190 L 470,240 L 570,240 L 590,300 L 530,360 L 480,420 L 430,480 L 350,540 L 290,560 L 240,510 L 190,460 L 140,430 L 90,410 L 60,350 L 120,340 L 140,290 L 230,290 Z"
-              fill="url(#texas-grad)"
+              fill="url(#front-range-grad)"
               stroke="#C5A059"
               strokeWidth="1.5"
               strokeDasharray="4 2"
@@ -441,7 +441,7 @@ export default function MapSection() {
         <div className="space-y-6">
           <div className="space-y-2">
             <h2 className="font-display font-semibold text-2xl sm:text-3xl md:text-4xl tracking-wide text-[#F4F4F6] uppercase leading-none">
-              SPATIAL TEXAS <br /><span className="text-[#C5A059]">BROKERAGE HUB</span>
+              SPATIAL COLORADO <br /><span className="text-[#C5A059]">BROKERAGE HUB</span>
             </h2>
           </div>
 
@@ -515,7 +515,7 @@ export default function MapSection() {
         {/* Regulatory Footer Tag */}
         <div className="pt-6 border-t border-white/15 flex items-center space-x-3 font-mono text-[9px] text-[#F4F3EF]/60 uppercase tracking-wider">
           <Compass size={16} className="text-[#C5A880] animate-spin" style={{ animationDuration: '12s' }} />
-          <span>ESTABLISHED ADVOCACY THROUGHOUT THE LONE STAR STATE · TREC #0594267</span>
+          <span>ESTABLISHED ADVOCACY THROUGHOUT THE LONE STAR STATE · TREC #0000000</span>
         </div>
       </div>
     </section>

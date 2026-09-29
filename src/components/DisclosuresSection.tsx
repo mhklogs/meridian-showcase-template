@@ -44,7 +44,7 @@ export default function DisclosuresSection({ initialTab = 'trec', onBackToMain }
             STATUTORY COMPLIANCE & <span className="text-[#C5A880]">LEGAL NOTICES</span>
           </h1>
           <p className="font-sans text-xs text-[#F4F3EF]/80 font-normal leading-relaxed uppercase tracking-wider">
-            OFFICIAL REGULATORY DISCLOSURES, TERMS OF SERVICE, AND CONSUMER PRIVACY PROTECTIONS FOR ULTD LLC BROKERAGE.
+            OFFICIAL REGULATORY DISCLOSURES, TERMS OF SERVICE, AND CONSUMER PRIVACY PROTECTIONS FOR Meridian Estates BROKERAGE.
           </p>
         </motion.div>
 
@@ -101,14 +101,14 @@ export default function DisclosuresSection({ initialTab = 'trec', onBackToMain }
                 TREC BULLETIN FOR CONSUMERS
               </span>
               <h2 className="font-display font-extrabold text-lg text-[#F4F3EF] uppercase leading-tight">
-                Texas Real Estate Commission Consumer Protection Notice
+                Colorado Real Estate Commission Consumer Protection Notice
               </h2>
               <p className="font-sans text-xs text-[#F4F3EF]/80 font-normal leading-relaxed">
-                The Texas Real Estate Commission (TREC) regulates real estate brokers and sales agents, real estate inspectors, home warranty companies, easement or right-of-way agents, and timeshare developers. You can find information about filing a complaint on the official TREC website.
+                The Colorado Real Estate Commission (TREC) regulates real estate brokers and sales agents, real estate inspectors, home warranty companies, easement or right-of-way agents, and timeshare developers. You can find information about filing a complaint on the official TREC website.
               </p>
               <div className="pt-2 flex flex-wrap gap-4 font-mono text-[10px]">
                 <a 
-                  href="https://www.trec.texas.gov/sites/default/files/pdf-forms/CN%201-5_0.pdf" 
+                  href="https://example.com/regulatory/complaint-form.pdf" 
                   target="_blank" 
                   rel="noreferrer" 
                   className="text-[#C5A880] font-bold hover:underline inline-flex items-center space-x-1"
@@ -117,12 +117,12 @@ export default function DisclosuresSection({ initialTab = 'trec', onBackToMain }
                 </a>
                 <span className="text-[#F4F3EF]/30">|</span>
                 <a 
-                  href="https://www.trec.texas.gov" 
+                  href="https://example.com/regulator" 
                   target="_blank" 
                   rel="noreferrer" 
                   className="text-[#F4F3EF] hover:text-[#C5A880] transition-colors font-bold hover:underline inline-flex items-center space-x-1"
                 >
-                  <span>VISIT WWW.TREC.TEXAS.GOV ↗</span>
+                  <span>VISIT WWW.TREC.COLORADO.GOV ↗</span>
                 </a>
               </div>
             </div>
@@ -138,7 +138,7 @@ export default function DisclosuresSection({ initialTab = 'trec', onBackToMain }
                   INFORMATION ABOUT BROKERAGE SERVICES
                 </h2>
                 <p className="font-sans text-[10px] text-[#F4F3EF]/70 font-semibold max-w-lg mx-auto leading-relaxed uppercase">
-                  Texas law requires all real estate license holders to give the following information about brokerage services to prospective buyers, tenants, sellers and landlords.
+                  Colorado law requires all real estate license holders to give the following information about brokerage services to prospective buyers, tenants, sellers and landlords.
                 </p>
               </div>
 
@@ -175,15 +175,15 @@ export default function DisclosuresSection({ initialTab = 'trec', onBackToMain }
                     </thead>
                     <tbody className="divide-y divide-[#22242B] bg-[#121316] text-[#F4F3EF]">
                       <tr>
-                        <td className="p-3 font-bold uppercase">Licensed Broker Firm:<br />ULTD LLC</td>
+                        <td className="p-3 font-bold uppercase">Licensed Broker Firm:<br />Meridian Estates</td>
                         <td className="p-3 font-bold">0594267</td>
-                        <td className="p-3 select-all text-[#C5A880]">ultd@swbell.net</td>
+                        <td className="p-3 select-all text-[#C5A880]">meridian@swbell.net</td>
                         <td className="p-3">(512) 560-7284</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-bold uppercase">Designated Broker:<br />Pat Patton</td>
+                        <td className="p-3 font-bold uppercase">Designated Broker:<br />Alex Morgan</td>
                         <td className="p-3 font-bold">0175549</td>
-                        <td className="p-3 select-all text-[#C5A880]">ultd@swbell.net</td>
+                        <td className="p-3 select-all text-[#C5A880]">meridian@swbell.net</td>
                         <td className="p-3">(512) 560-7284</td>
                       </tr>
                     </tbody>
@@ -211,7 +211,7 @@ export default function DisclosuresSection({ initialTab = 'trec', onBackToMain }
 
             <div className="space-y-6 font-sans text-xs text-[#F4F3EF]/80 leading-relaxed font-normal">
               <p>
-                Welcome to ULTD LLC Real Estate. By accessing or using our website, services, and associated content, you agree to comply with and be bound by the following terms and conditions.
+                Welcome to Meridian Estates Real Estate. By accessing or using our website, services, and associated content, you agree to comply with and be bound by the following terms and conditions.
               </p>
 
               <div className="space-y-2">
@@ -224,14 +224,14 @@ export default function DisclosuresSection({ initialTab = 'trec', onBackToMain }
               <div className="space-y-2">
                 <h3 className="font-display font-bold text-sm text-[#C5A880] uppercase tracking-wider">2. Equal Housing Opportunity</h3>
                 <p>
-                  ULTD LLC fully supports the principles of the Fair Housing Act and the Equal Opportunity Act. All properties are offered on an equal opportunity basis without discrimination based on race, color, religion, sex, handicap, familial status, or national origin.
+                  Meridian Estates fully supports the principles of the Fair Housing Act and the Equal Opportunity Act. All properties are offered on an equal opportunity basis without discrimination based on race, color, religion, sex, handicap, familial status, or national origin.
                 </p>
               </div>
 
               <div className="space-y-2">
                 <h3 className="font-display font-bold text-sm text-[#C5A880] uppercase tracking-wider">3. Intellectual Property</h3>
                 <p>
-                  All editorial photography, architectural copywriting, property dossiers, and brand assets are the exclusive property of ULTD LLC and protected under applicable trademark and copyright laws.
+                  All editorial photography, architectural copywriting, property dossiers, and brand assets are the exclusive property of Meridian Estates and protected under applicable trademark and copyright laws.
                 </p>
               </div>
             </div>
@@ -255,7 +255,7 @@ export default function DisclosuresSection({ initialTab = 'trec', onBackToMain }
 
             <div className="space-y-6 font-sans text-xs text-[#F4F3EF]/80 leading-relaxed font-normal">
               <p>
-                At ULTD LLC, we are committed to safeguarding the privacy and confidential financial profile of our luxury residential and commercial clients.
+                At Meridian Estates, we are committed to safeguarding the privacy and confidential financial profile of our luxury residential and commercial clients.
               </p>
 
               <div className="space-y-2">
@@ -275,7 +275,7 @@ export default function DisclosuresSection({ initialTab = 'trec', onBackToMain }
               <div className="space-y-2">
                 <h3 className="font-display font-bold text-sm text-[#C5A880] uppercase tracking-wider">3. Contact Security</h3>
                 <p>
-                  Should you have any inquiries regarding your stored contact preferences, please reach Designated Broker Pat Patton directly at (512) 560-7284 or via email at ultd@swbell.net.
+                  Should you have any inquiries regarding your stored contact preferences, please reach Designated Broker Alex Morgan directly at (512) 560-7284 or via email at meridian@swbell.net.
                 </p>
               </div>
             </div>

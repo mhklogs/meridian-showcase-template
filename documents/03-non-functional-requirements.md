@@ -1,4 +1,4 @@
-# ultd-llc-realestate — Non-Functional Requirements
+# meridian-showcase-template — Non-Functional Requirements
 
 > **Important.** Performance, availability and security targets below are
 > **placeholders**, not measurements. No load test, profiling run, or audit was
